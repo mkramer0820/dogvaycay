@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+{% extends "dog_vaycay/base.html" %}
+{%  load staticfiles %}
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+<body>
+
+
+{%block content%}
+
+  <div class="jumbotron">
+      <div class="container" id="jumbotron-container">
+        <h1>BOOK YOUR PUPS STAY TODAY</h1>
+			<div class="funlovingimg">
+				<img src="{% static "dog_vaycay/images/FunLovingVacay.png" %}" id="funloving">
+			</div>
+      </div>    </div>
+
+     <div class="neighborhood">
+        <div class="container">
+		<h2> Where Your Pup Will Be While You Are Gone</h2>
+		</div>
+	</div>
+	<div class= "container">
+        <div class="row">
+			<div class="col-md-4">
+				<h2> 72nd Street Dog Run</h2>
+				    <div class="thumbnail">
+					    <img src="{% static "dog_vaycay/images/Charlie72Run.JPG" %}">
+				    </div>
+				<h3>Traveling to 72</h3>
+				<p>Only 10 blocks north, your pup will run free on this large dog run!</p>
+			</div>
+
+            <div class="col-md-4">
+				<h2> 54th Street Dog Run</h2>
+                    <div class="thumbnail">
+					    <img src="{% static 'dog_vaycay/images/dewwitclinton.jpg' %}">
+			        </div>
+				<h3> Traveling to 54th</h3>
+				<p>On hot summer dy your dog will be able to relax in the parks dog poll, and be free of sun in a fully shaded dog run</p>
+			</div>
+
+            <div class="col-md-4">
+			<h2> Central Park</h2>
+				<div class="thumbnail">
+					<img src="{% static "dog_vaycay/images/CentralParkCharlie.jpg" %}">
+				</div>
+				<h3>Walks in central park</h3>
+				<p>Your pup can lay and roll in the grass in central park during his daily walks!</p>
+			</div>
+		</div>
+    </div>
+
+{% endblock content %}
+</body>
+</html>

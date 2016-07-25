@@ -1,0 +1,42 @@
+/* first jumbotron bw dog image */
+.jumbotron {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  background-image: url("../images/charliebackground.jpg");
+    background-color: eee;
+    background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.jumbotron h1 {
+	color: white;
+	text-align: center;
+	font-weight:900;
+    font-size: 400%;
+}
+
+#jumbotron-container{
+	position: relative;
+
+}
+
+
+
+#funloving{
+	float: right;
+	margin-top: 400px;
+	background-color: transparent;
+}
+
+.funloving-img{
+	background-color: transparent;
+}
+
+img.woofganglogo{
+	height:80px;
+	display:inline-block;
+	margin-top: -30px;
+}
+

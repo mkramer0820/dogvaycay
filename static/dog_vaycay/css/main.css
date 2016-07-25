@@ -1,0 +1,69 @@
+/* nav bar css for base html*/
+.nav{
+	padding-top: 0;
+	padding-bottom: -15px;
+	text-align: center;
+	background-color: white;
+}
+
+img.woofganglogo{
+	height:80px;
+	display:inline-block;
+	margin-top: -30px;
+}
+
+.logo-fill{
+	height: 80px;
+	width: 302px;
+	float: left;
+	margin-left: -80px;
+}
+.logo{
+	float:left;
+	background-color: ;
+	margin-top: 30px;
+	padding: ;
+}
+.nav-text{
+	padding-top: ;
+	text-align: center;
+	display: inline-block;
+}
+.nav li:hover{
+	color: black;
+}
+.nav li{
+	display: inline-block;
+	padding: 30px 0 20px 20px;
+	font-family: san-serif, ;
+	font-size: 30px;
+	color: #63ADC4;
+	float: left;
+}
+
+/*container dimensions*/
+.container {
+    width: 970px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 80px;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* 1st  Jumbotron with dog image */
