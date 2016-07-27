@@ -22,14 +22,20 @@
             <li><a href="#">Gallery</a></li>
             <li><a href="https://dogvacay.com/woof-gang-vacay-dog-boarding-269059"> Book</a></li>
             <li><a href="#">Contact</a></li>
-            <li>
+            <li> <!--Switch between login and log out views -->
                 {% if user.is_authenticated %}
                 <a href="{% url 'accounts:logout' %}">Log out</a>
                 {% else %}
                 <a href="{% url 'accounts:login' %}"> Log in</a>
                 {% endif %}
             </li>
-            <li><a href="{% url 'accounts:register' %}">Register</a></li>
+            <li> <!--Switch Register Link to the my account link-->
+                {% if user.is_authenticated %}
+                <a href="{% url 'accounts:user_profile' %}">Profile</a>
+                {% else %}
+                <a href="{% url 'accounts:register' %}">Register</a>
+                {% endif %}
+            </li>
             {% if user.is_authenticated %}
             <li>Hello, {{ user.username }}</li>
             {% else %}

@@ -1,0 +1,31 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Changes to be committed:
+#	modified:   .idea/workspace.xml
+#	modified:   accounts/__pycache__/admin.cpython-35.pyc
+#	modified:   accounts/__pycache__/forms.cpython-35.pyc
+#	modified:   accounts/__pycache__/models.cpython-35.pyc
+#	modified:   accounts/__pycache__/urls.cpython-35.pyc
+#	modified:   accounts/__pycache__/views.cpython-35.pyc
+#	modified:   accounts/admin.py
+#	modified:   accounts/forms.py
+#	new file:   accounts/migrations/0001_initial.py
+#	new file:   accounts/migrations/0002_auto_20160726_2311.py
+#	new file:   accounts/migrations/__pycache__/0001_initial.cpython-35.pyc
+#	new file:   accounts/migrations/__pycache__/0002_auto_20160726_2311.cpython-35.pyc
+#	modified:   accounts/models.py
+#	new file:   accounts/signals.py
+#	new file:   accounts/templates/accounts/user_profile.html
+#	modified:   accounts/urls.py
+#	modified:   accounts/views.py
+#	modified:   db.sqlite3
+#	modified:   dog_vaycay/__pycache__/admin.cpython-35.pyc
+#	modified:   dog_vaycay/admin.py
+#	modified:   dog_vaycay/templates/dog_vaycay/base.html
+#
+# Changes not staged for commit:
+#	modified:   d_vaycay (modified content)
+#
+
