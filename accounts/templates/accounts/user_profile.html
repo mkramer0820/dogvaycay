@@ -1,11 +1,15 @@
 {%  extends "dog_vaycay/base.html" %}
 
-{% block content %}
-    <p>Create a new form for your dog:</p>
 
-    <form action="{% url 'accounts:user_profile' %}" method='post'>
-      {% csrf_token %}
-    {{ form.as_p }}
-    <button name="submit">Submit your information form</button>
-    </form>
+{% block content %}
+<div class = 'container'>
+    <div class = 'row'>
+        {% load crispy_forms_tags %}
+        <form method="post" action="{% url 'accounts:user_profile' %}">
+        {% csrf_token %}
+        {% crispy form %}
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
 {% endblock content %}

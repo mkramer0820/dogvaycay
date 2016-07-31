@@ -41,6 +41,8 @@ def profile(request):
         form = UserProfileForm(request.POST)
 
         if form.is_valid():
+            profile = form.save(commit=False)
+            profile.owner = request.user
             form.save()
             return HttpResponseRedirect(reverse('dog_vaycay:index'))
 

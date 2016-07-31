@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 class UserProfile(models.Model):
-    user = models.ForeignKey(User)
+    owner = models.ForeignKey(User)
     address = models.TextField(max_length=100)
     phone_number = models.CharField(max_length=13)
     emergency_contact_name = models.CharField(max_length=25)
@@ -42,6 +42,7 @@ class UserProfile(models.Model):
     # vet info
     vet_name = models.CharField(max_length=25)
     ver_phone_number = models.CharField(max_length=13)
+
 
     def __str__(self):
         return self.user.username
